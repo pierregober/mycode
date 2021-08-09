@@ -137,7 +137,7 @@ while True:
             # tell them they can't get it
             print('Can\'t get ' + move[1] + '!')
 
-      # if they type 'look' in any room
+    # if they type 'look' in any room
     if move[0] == 'look':
         if 'desc' in rooms[currentRoom]:
             print(rooms[currentRoom]['desc'])  # print the look description
