@@ -1,15 +1,24 @@
 #!/usr/bin/python3
 
 import random
-import sys
 import os
 # Replace RPG starter project with this code when new instructions are live
 
 
 def showInstructions():
     # print a main menu and the commands
+    print('▓█████   ██████  ▄████▄   ▄▄▄       ██▓███  ▓█████    ▄▄▄█████▓ ██░ ██ ▓█████     ██░ ██  ▒█████   █    ██   ██████ ▓█████ ')
+    print('▓█   ▀ ▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██░  ██▒▓█   ▀    ▓  ██▒ ▓▒▓██░ ██▒▓█   ▀    ▓██░ ██▒▒██▒  ██▒ ██  ▓██▒▒██    ▒ ▓█   ▀ ')
+    print('▒███   ░ ▓██▄   ▒▓█    ▄ ▒██  ▀█▄  ▓██░ ██▓▒▒███      ▒ ▓██░ ▒░▒██▀▀██░▒███      ▒██▀▀██░▒██░  ██▒▓██  ▒██░░ ▓██▄   ▒███   ')
+    print('▒▓█  ▄   ▒   ██▒▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██▄█▓▒ ▒▒▓█  ▄    ░ ▓██▓ ░ ░▓█ ░██ ▒▓█  ▄    ░▓█ ░██ ▒██   ██░▓▓█  ░██░  ▒   ██▒▒▓█  ▄ ')
+    print('░▒████▒▒██████▒▒▒ ▓███▀ ░ ▓█   ▓██▒▒██▒ ░  ░░▒████▒     ▒██▒ ░ ░▓█▒░██▓░▒████▒   ░▓█▒░██▓░ ████▓▒░▒▒█████▓ ▒██████▒▒░▒████▒')
+    print('░░ ▒░ ░▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ▒▒   ▓▒█░▒▓▒░ ░  ░░░ ▒░ ░     ▒ ░░    ▒ ░░▒░▒░░ ▒░ ░    ▒ ░░▒░▒░ ▒░▒░▒░ ░▒▓▒ ▒ ▒ ▒ ▒▓▒ ▒ ░░░ ▒░ ░')
+    print(' ░ ░  ░░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░░▒ ░      ░ ░  ░       ░     ▒ ░▒░ ░ ░ ░  ░    ▒ ░▒░ ░  ░ ▒ ▒░ ░░▒░ ░ ░ ░ ░▒  ░ ░ ░ ░  ░')
+    print('   ░   ░  ░  ░  ░          ░   ▒   ░░          ░        ░       ░  ░░ ░   ░       ░  ░░ ░░ ░ ░ ▒   ░░░ ░ ░ ░  ░  ░     ░   ')
+    print('   ░  ░      ░  ░ ░            ░  ░            ░  ░             ░  ░  ░   ░  ░    ░  ░  ░    ░ ░     ░           ░     ░  ░')
+
     print('''
-RPG Game
+By Pierre Gober
 ========
 Commands:
   go [direction]
@@ -83,7 +92,6 @@ rooms = {
 # start the player in the Hall
 currentRoom = 'Hall'
 
-os.system('clear')  # start game with a fresh screen
 showInstructions()
 
 # loop forever
