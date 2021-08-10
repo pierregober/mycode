@@ -20,7 +20,6 @@ def reverseGeocode(coordinates):
     city = result[0]['name']
     return city
 
-
 def main():
     # requests.get() sends GET request to the URL
     # .json() strips JSON off the response and translates into Python!
